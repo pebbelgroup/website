@@ -71,12 +71,12 @@ ul {
 }
 
 #sitenavlist li:hover {
-    color: darkblue;
+    color: #1c4587;
     cursor: pointer;
 }
 
 #banner {
-    background-image: url("media/banner_background.png");
+    background-image: url("../media/banner_background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
@@ -90,4 +90,8 @@ ul {
     text-align: right;
     width: 60%;
     line-height: 40px;
+}
+
+#period {
+    color: #1c4587;
 }
