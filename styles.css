@@ -76,7 +76,7 @@ ul {
 }
 
 #banner {
-    background-image: url("../media/banner_background.png");
+    background-image: url("./media/banner_background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
