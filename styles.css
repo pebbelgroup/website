@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    display: flex;
+}
+
+#intro h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+#intro h2 {
+    font-size: 32px;
+}
+
+#intro p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#introlinks {
+    margin-right: 20px;
+}
+
+#introlinks ul {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+#introlinks ul li {
+    padding: 10px 10px 10px 27px;
+    font-size: 22px;
+}
+
+#introlinks ul li:hover {
+    color: #1c4587;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+#imglogofull {
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+}
+
+#sitenav {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#sitenavlist {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+#sitenavlist li {
+    padding: 0px 10px 00px 10px;
+    color: darkslategrey;
+}
+
+#sitenavlist li:hover {
+    color: darkblue;
+    cursor: pointer;
+}
+
+#banner {
+    background-image: url('/media/banner_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100%;
+}
+
+#intro {
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: 5%;
+    text-align: right;
+    width: 60%;
+    line-height: 40px;
+}
