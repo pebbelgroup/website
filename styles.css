@@ -80,6 +80,7 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
+    width: auto;
     height: 100%;
 }
 
