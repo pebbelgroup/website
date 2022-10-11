@@ -4,6 +4,10 @@
     }
 }
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     width: 100%;
@@ -15,7 +19,6 @@ header {
     width: 100%;
     display: flex;
     background-color: white;
-    position: fixed;
     z-index: 1;
 }
 
@@ -27,7 +30,6 @@ header {
     width: auto;
     height: 90%;
     min-height: max-content;
-    position: relative;
     top: 75px;
     z-index: 0;
 }
@@ -140,14 +142,12 @@ ul {
 footer {
     height: 75px;
     width: 100%;
-    position: relative;
 }
 
 #socials {
     display: flex;
     margin-right: 35px;
     justify-content: right;
-    bottom: 0;
 }
 
 #socials li {
