@@ -151,6 +151,7 @@ footer {
 #socials li {
     padding: 0px 15px 00px 15px;
     margin-top: 30px;
+    overflow: hidden;
 }
 
 #socialicons {
