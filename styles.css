@@ -146,6 +146,7 @@ footer {
     display: flex;
     margin-right: 35px;
     justify-content: right;
+    bottom: 0;
 }
 
 #socials li {
