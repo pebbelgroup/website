@@ -127,6 +127,7 @@ ul {
     background-color: white;
     margin-top: 25px;
     color: #1c4587;
+    display: none;
 }
 
 .btnstandard:hover{
