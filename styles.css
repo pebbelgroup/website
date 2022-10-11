@@ -15,6 +15,31 @@ header {
     width: 100%;
     display: flex;
     background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+#banner {
+    background-image: url("./media/banner_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: auto;
+    height: 90%;
+    min-height: max-content;
+    position: relative;
+    top: 75px;
+    z-index: 0;
+}
+
+#intro {
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: 35px;
+    text-align: right;
+    max-width: 800px;
+    line-height: 40px;
+    backdrop-filter: blur(2px);
 }
 
 #intro h1 {
@@ -43,7 +68,7 @@ header {
 }
 
 #introlinks ul li {
-    padding: 10px 10px 10px 27px;
+    padding: 10px 10px 10px 35px;
     font-size: 22px;
 }
 
@@ -65,13 +90,14 @@ ul {
 #sitenav {
     width: 100%;
     margin-top: 10px;
+    display: none;
 }
 
 #sitenavlist {
     list-style: none;
     display: flex;
     justify-content: right;
-    margin-right: 20px;
+    margin-right: 35px;
     font-size: 18px;
 }
 
@@ -85,25 +111,58 @@ ul {
     cursor: pointer;
 }
 
-#banner {
-    background-image: url("./media/banner_background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left;
-    width: auto;
-    height: 100%;
-}
-
-#intro {
-    padding-top: 40px;
-    margin-left: auto;
-    margin-right: 5%;
-    text-align: right;
-    max-width: 900px;
-    line-height: 40px;
-    backdrop-filter: blur(2px);
-}
-
 #period {
     color: #1c4587;
+}
+
+.btnstandard {
+    width: 200px;
+    height: 35px;
+    border: solid;
+    border-radius: 5px;
+    border-color: #1c4587;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: white;
+    margin-top: 25px;
+    color: #1c4587;
+}
+
+.btnstandard:hover{
+    background-color: #1c4587;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    height: 75px;
+    width: 100%;
+    position: relative;
+}
+
+#socials {
+    display: flex;
+    margin-right: 35px;
+    justify-content: right;
+}
+
+#socials li {
+    padding: 0px 15px 00px 15px;
+    margin-top: 30px;
+}
+
+#socialicons {
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #1c4587;
+    font-family: inherit;
+}
+
+a:hover {
+    font-weight: 600;
 }
