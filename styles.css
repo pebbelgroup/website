@@ -12,6 +12,10 @@ body {
     margin: 0;
     width: 100%;
     font-family: 'Karla', sans-serif;
+    background-image: url("./media/banner_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 header {
@@ -23,12 +27,7 @@ header {
 }
 
 #banner {
-    background-image: url("./media/banner_background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left;
-    width: auto;
-    height: 90%;
+    width: 100%;
     min-height: max-content;
     top: 75px;
     z-index: 0;
